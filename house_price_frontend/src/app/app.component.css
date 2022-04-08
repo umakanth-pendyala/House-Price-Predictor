@@ -1,0 +1,33 @@
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* max-width: 1400px; */
+    height: 100vh;
+    max-width: 600px;
+}
+
+form {
+    width: 100%;
+}
+
+.form-container {
+    width: 100%;
+    text-align: center;
+}
+
+input {
+    margin: .7rem .5rem;
+}
+
+p {
+    margin: 0;
+    margin-bottom: 0;
+}
+
+.info-cstm {
+    margin: 1rem 0;
+}

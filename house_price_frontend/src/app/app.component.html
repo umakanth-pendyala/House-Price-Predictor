@@ -1,0 +1,18 @@
+<div class="container" style="font-family: Arial, Helvetica, sans-serif;">
+  <div class="form-container">
+    <h4>Prediction parameters</h4>
+    <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+      <input class="form-control" type="text" 
+        placeholder="enter number of bedrooms" ngModel name="bedrooms">
+      <input class="form-control" type="text" 
+        placeholder="enter sqft living" ngModel name="sqftliving">
+      <input class="form-control" type="text" 
+        placeholder="enter condition" ngModel name="condition">
+      <input class="form-control" type="text" 
+        placeholder="enter grade" ngModel name="grade">
+      <button type="submit" class="btn btn-primary">Get Predictions</button>
+    </form>
+  </div>
+  <div class="spinner-border text-primary" style="margin-top: 1rem;" role="status" *ngIf="showSpinner">
+  </div>
+</div>
